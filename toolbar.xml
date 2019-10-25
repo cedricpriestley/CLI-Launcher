@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TOOLBAR>
-<show_toolbar value="true"/>
+<show_toolbar value="false"/>
 <hide_toolbar_no_input value="false"/>
 </TOOLBAR>
