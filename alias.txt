@@ -1,0 +1,2 @@
+
+news=search -g news
