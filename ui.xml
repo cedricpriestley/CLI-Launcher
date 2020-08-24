@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UI>
-<show_enter_button value="falsee"/>
+<show_enter_button value="true"/>
 <system_font value="false"/>
 <ram_size value="13"/>
 <battery_size value="13"/>
@@ -9,18 +9,18 @@
 <storage_size value="13"/>
 <network_size value="13"/>
 <notes_size value="13"/>
-<input_output_size value="13"/>
+<input_output_size value="15"/>
 <input_bottom value="true"/>
 <show_ram value="true"/>
 <show_device_name value="true"/>
 <show_battery value="false"/>
 <show_network_info value="false"/>
 <show_storage_info value="true"/>
-<show_notes value="false"/>
+<show_notes value="true"/>
 <enable_battery_status value="true"/>
 <show_time value="false"/>
 <username value="user"/>
-<deviceName value="FERMI_TF"/>
+<deviceName value="j2coreplteatt"/>
 <system_wallpaper value="false"/>
 <fullscreen value="false"/>
 <device_index value="0"/>
@@ -44,8 +44,8 @@
 <show_restart_message value="true"/>
 <notes_max_lines value="10"/>
 <show_scroll_notes_message value="true"/>
-<show_weather value="true"/>
-<weather_index value="false"/>
+<show_weather value="false"/>
+<weather_index value="7"/>
 <weather_size value="13"/>
 <show_unlock_counter value="false"/>
 <unlock_index value="8"/>

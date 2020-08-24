@@ -1,16 +1,26 @@
 
 
-java.lang.IllegalArgumentException: Comparison method violates its general contract!
-	at java.util.TimSort.mergeLo(TimSort.java:777)
-	at java.util.TimSort.mergeAt(TimSort.java:514)
-	at java.util.TimSort.mergeCollapse(TimSort.java:441)
-	at java.util.TimSort.sort(TimSort.java:245)
-	at java.util.Arrays.sort(Arrays.java:1432)
-	at it.andreuzzi.comparestring2.CompareObjects.a(Unknown Source:63)
-	at it.andreuzzi.comparestring2.CompareObjects.a(Unknown Source:6)
-	at ohi.andre.consolelauncher.managers.suggestions.i.c(Unknown Source:129)
-	at ohi.andre.consolelauncher.managers.suggestions.i.a(Unknown Source:34)
-	at ohi.andre.consolelauncher.managers.suggestions.i.a(Unknown Source:360)
-	at ohi.andre.consolelauncher.managers.suggestions.h.run(Unknown Source:68)
+java.lang.StringIndexOutOfBoundsException: length=1; index=-1
+	at java.lang.String.charAt(Native Method)
+	at ohi.andre.consolelauncher.managers.suggestions.i.a(Unknown Source:106)
+	at ohi.andre.consolelauncher.managers.suggestions.e.onTextChanged(Unknown Source:6)
+	at android.widget.TextView.sendOnTextChanged(TextView.java:10960)
+	at android.widget.TextView.handleTextChanged(TextView.java:11072)
+	at android.widget.TextView$ChangeWatcher.onTextChanged(TextView.java:14184)
+	at android.text.SpannableStringBuilder.sendTextChanged(SpannableStringBuilder.java:1263)
+	at android.text.SpannableStringBuilder.replace(SpannableStringBuilder.java:575)
+	at android.text.SpannableStringBuilder.replace(SpannableStringBuilder.java:506)
+	at android.text.SpannableStringBuilder.replace(SpannableStringBuilder.java:36)
+	at android.view.inputmethod.BaseInputConnection.replaceText(BaseInputConnection.java:849)
+	at android.view.inputmethod.BaseInputConnection.commitText(BaseInputConnection.java:199)
+	at com.android.internal.widget.EditableInputConnection.commitText(EditableInputConnection.java:183)
+	at com.android.internal.view.IInputConnectionWrapper.executeMessage(IInputConnectionWrapper.java:341)
+	at com.android.internal.view.IInputConnectionWrapper$MyHandler.handleMessage(IInputConnectionWrapper.java:85)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loop(Looper.java:216)
+	at android.app.ActivityThread.main(ActivityThread.java:7266)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:494)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:975)
 
 ----------------------------

@@ -7,7 +7,7 @@
 <songs_from_mediastore value="true"/>
 <tui_notification value="false"/>
 <auto_show_keyboard value="true"/>
-<auto_scroll value="false"/>
+<auto_scroll value="true"/>
 <show_hints value="true"/>
 <show_alias_content value="false"/>
 <show_launch_history value="true"/>
@@ -61,11 +61,11 @@
 <tui_notification_time_color value="#03A9F4"/>
 <tui_notification_input_color value="#ff00ff00"/>
 <weather_key value="1f798f99228596c20ccfda51b9771a86"/>
-<weather_temperature_measure value="imperial"/>
+<weather_temperature_measure value="metric"/>
 <weather_location value="null"/>
 <weather_format value="Weather: %main, Temp: %temp"/>
 <clear_on_lock value="false"/>
-<unlock_counter_format value=""/>
+<unlock_counter_format value="Unlocked %c times (%a10/)%n%t(Unlock n. %i --&gt; %w)3"/>
 <unlock_time_divider value="%n"/>
 <unlock_time_order value="1"/>
 <unlock_counter_cycle_start value="6.00"/>
@@ -74,5 +74,5 @@
 <weather_update_time value="3600"/>
 <location_update_mintime value="20"/>
 <location_update_mindistance value="500"/>
-<show_weather_updates value="false"/>
+<show_weather_updates value="true"/>
 </BEHAVIOR>
