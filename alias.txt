@@ -11,3 +11,4 @@ c=chrome
 
 x=x-plore
 o=openhub
+pg=pocketgit
